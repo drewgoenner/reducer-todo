@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Todo = props => {
-  let className = props.data.completed ? 'active' : '';
+  let className = props.data.completed ? 'completed' : '';
   return (
      
     <h4
