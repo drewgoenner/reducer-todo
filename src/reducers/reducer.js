@@ -19,8 +19,6 @@ export const initialState = [{
 
 export const toDoReducer = (state, action) => {
     switch (action.type) {
-        // case 'MODIFY':
-        //     return action.newArr;
         case 'TOGGLE_COMPLETED':
             return state.map(item =>
                 item.id === action.id

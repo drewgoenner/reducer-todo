@@ -6,7 +6,6 @@ const Todo = props => {
      
     <h4
       className={className}
-      data-roll={props.data.completed}
       onClick={() =>
       props.dispatch({
         type: 'TOGGLE_COMPLETED',
